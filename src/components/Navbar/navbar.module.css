@@ -1,0 +1,17 @@
+.menu {
+  list-style: none;
+  display: flex;
+}
+.link {
+  list-style: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #041402;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.link:global(.active) {
+  color: #41cc77;
+}

@@ -1,0 +1,19 @@
+.item {
+  padding: 5px 10px;
+}
+
+.list {
+  margin-left: 20px;
+}
+
+.link {
+  font-size: 15px;
+  color: hwb(0 25% 75%);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover,
+.link:focus {
+  color: hwb(152 26% 29%);
+}
