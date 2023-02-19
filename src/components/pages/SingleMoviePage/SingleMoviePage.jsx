@@ -87,12 +87,20 @@ const SingleMoviePage = () => {
             <h3>Additional information</h3>
             <ul>
               <li>
-                <Link className={css.next} state={{ from }} to={`/movies/${movieId}/cast`}>
+                <Link
+                  className={css.next}
+                  state={{ from }}
+                  to={`/movies/${movieId}/cast`}
+                >
                   Cast
                 </Link>
               </li>
               <li>
-                <Link className={css.next} state={{ from }} to={`/movies/${movieId}/reviews`}>
+                <Link
+                  className={css.next}
+                  state={{ from }}
+                  to={`/movies/${movieId}/reviews`}
+                >
                   Reviews
                 </Link>
               </li>
